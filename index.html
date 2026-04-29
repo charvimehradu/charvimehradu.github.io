@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charvi Mehra — AI/ML Engineer</title>
+  <meta name="description" content="Portfolio of Charvi Mehra — AI/ML Engineer, GSoC 2025 contributor, Joomla 6.2 Release Manager, and published researcher." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">CM<span class="logo-dot">.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1 class="hero-title">Charvi Mehra</h1>
+        <p class="hero-tagline">
+          <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+        </p>
+        <p class="hero-summary">
+          AI/ML Engineer building multi-agent systems, LLM platforms, and scalable ML infrastructure.
+          Architected enterprise AI solutions for <strong>PwC, Paytm, Blinkit & Havells</strong>, and shipped
+          the AI Framework powering <strong>2M+ Joomla websites</strong>. Currently the
+          <strong>Joomla 6.2 Release Manager</strong>.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="assets/CharviMehra_CV.pdf" class="btn btn-secondary" download>Download CV</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/charvi-mehra" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/charvimehradu" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="mailto:charvimehrawork01@gmail.com" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-glow"></div>
+        <div class="image-frame">
+          <img src="assets/profile.jpg" alt="Charvi Mehra" />
+        </div>
+        <div class="floating-tag tag-1">Python</div>
+        <div class="floating-tag tag-2">LLMs</div>
+        <div class="floating-tag tag-3">RAG</div>
+        <div class="floating-tag tag-4">FastAPI</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a final-year B.Tech student at <strong>Cluster Innovation Centre, University of Delhi</strong>,
+            studying Information Technology and Mathematical Innovation with a CGPA of <strong>9.09/10</strong>.
+          </p>
+          <p>
+            My work sits at the intersection of <strong>applied AI research</strong> and <strong>production ML systems</strong>.
+            I've architected agentic AI frameworks deployed across tier-1 enterprises, shipped open-source AI
+            infrastructure to millions of websites through Google Summer of Code, and first-authored research
+            in computer vision for low-power edge devices.
+          </p>
+          <p>
+            Beyond engineering, I serve the open-source community as the <strong>Joomla 6.2 Release Manager</strong>
+            and contribute regular technical articles to the Joomla Community Magazine.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">2M+</span>
+              <span class="stat-label">Websites reached via Joomla AI Framework</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">2</span>
+              <span class="stat-label">Research publications as first author</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">9.09</span>
+              <span class="stat-label">CGPA at DU Cluster Innovation Centre</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info">
+          <h3>Quick Facts</h3>
+          <ul class="info-list">
+            <li><span>Location</span><strong>India</strong></li>
+            <li><span>Degree</span><strong>B.Tech IT &amp; Math Innovation</strong></li>
+            <li><span>University</span><strong>University of Delhi (CIC)</strong></li>
+            <li><span>Graduation</span><strong>June 2026</strong></li>
+            <li><span>Focus</span><strong>AI / ML Engineering</strong></li>
+            <li><span>Open Source</span><strong>Joomla 6.2 RM</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2>Skills &amp; Tools</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>SQL</span><span>R</span><span>C</span><span>PHP</span><span>Shell</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">AI</div>
+          <h3>AI / ML</h3>
+          <div class="skill-tags">
+            <span>LLM Integration</span><span>Multi-Agent Systems</span><span>RAG Pipelines</span>
+            <span>TensorFlow</span><span>PyTorch</span><span>LangChain</span><span>Computer Vision</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">{ }</div>
+          <h3>Backend &amp; Infra</h3>
+          <div class="skill-tags">
+            <span>FastAPI</span><span>Docker</span><span>REST APIs</span><span>Async I/O</span>
+            <span>AWS S3</span><span>Git</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">∑</div>
+          <h3>Data &amp; Analytics</h3>
+          <div class="skill-tags">
+            <span>Pandas</span><span>NumPy</span><span>OpenCV</span><span>Statistical Modeling</span>
+            <span>Data Pipelines</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Sep 2025 – Present</span>
+              <span class="timeline-tag">Current</span>
+            </div>
+            <h3>AI Research Intern</h3>
+            <p class="timeline-org">Irame AI · Gurugram, India</p>
+            <ul>
+              <li>Architected a multi-agent AI feature automating enterprise audit report generation; reduced turnaround from 4+ hours to <strong>&lt;60 seconds</strong>, deployed across <strong>PwC, Paytm, Blinkit, and Havells</strong>.</li>
+              <li>Designed an agentic framework using the Planner–Actor pattern with DAG-based task orchestration, achieving <strong>5× throughput</strong> via semaphore-limited parallel execution.</li>
+              <li>Engineered an async-first architecture handling <strong>1,000+ concurrent requests</strong> with FastAPI, httpx, and S3, with full observability via per-execution trace logging.</li>
+              <li>Reduced LLM inference costs by <strong>40–60%</strong> via an optimized embedding pipeline.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">2026 (Ongoing)</span>
+              <span class="timeline-tag highlight">Open Source</span>
+            </div>
+            <h3>Release Manager — Joomla 6.2</h3>
+            <p class="timeline-org">Joomla! Project · Remote</p>
+            <ul>
+              <li>Coordinating the release cycle of <strong>Joomla 6.2</strong>, the upcoming version of one of the world's most-used open-source CMSs.</li>
+              <li>Driving release planning, contributor coordination, and quality gates across a global volunteer team.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">May 2025 – Aug 2025</span>
+              <span class="timeline-tag highlight">GSoC 2025</span>
+            </div>
+            <h3>Open Source Contributor</h3>
+            <p class="timeline-org">Google Summer of Code 2025, Joomla! · Remote</p>
+            <ul>
+              <li>Shipped the <strong>Joomla! AI Framework</strong> to production, enabling AI capabilities across <strong>2M+ active websites</strong> through a provider-agnostic architecture supporting OpenAI, Anthropic, and Ollama.</li>
+              <li>Built end-to-end generative AI features: content assistants, SEO helpers, automated alt-text generation, and image generation with SQL-driven content retrieval.</li>
+              <li>Authored technical documentation and standardized CI/CD pipelines, reducing contributor onboarding time by <strong>50%</strong>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Feb 2025 – Jul 2025</span>
+            </div>
+            <h3>Machine Learning Research Intern</h3>
+            <p class="timeline-org">CyPSi Lab, Institute of Informatics &amp; Communication (IIC) · Delhi</p>
+            <ul>
+              <li>First-authored a conference paper (accepted at <strong>InCoWoCo 2025</strong>) on Indian currency classification with <strong>96.3% accuracy</strong>, a 1.99 MB model footprint, and 60 ms inference latency.</li>
+              <li>Designed an optimized 4-block CNN architecture for mobile deployment, integrated into an Android app with real-time TensorFlow Lite inference and Hindi speech output for accessibility.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jun 2024 – Nov 2024</span>
+            </div>
+            <h3>Research Trainee</h3>
+            <p class="timeline-org">CSIR–Institute of Genomics and Integrative Biology (IGIB)</p>
+            <ul>
+              <li>Co-authored a research paper (in submission) on biomedical signal classification using genomic and biochemical data.</li>
+              <li>Developed preprocessing pipelines for high-dimensional datasets (~42k variants) and achieved <strong>95% classification accuracy</strong> after feature optimization.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-header">
+            <div class="project-icon">📄</div>
+            <div class="project-tags">
+              <span>RAG</span><span>LangChain</span><span>FastAPI</span>
+            </div>
+          </div>
+          <h3>Enterprise RAG Documentation Assistant</h3>
+          <p>Production RAG pipeline that reduced documentation lookup time by <strong>70%</strong> by retrieving and summarizing technical reports from 10,000+ document knowledge bases. Implemented retrieval grounding to eliminate hallucinations with 99.2% factual accuracy.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <div class="project-icon">🚗</div>
+            <div class="project-tags">
+              <span>3D Gaussian Splatting</span><span>Diffusion</span><span>OpenCV</span>
+            </div>
+          </div>
+          <h3>Automotive 3D Visualization Pipeline</h3>
+          <p>Engineered a pipeline using 3D Gaussian Splatting and multi-view geometry to generate interactive 360° vehicle renders. Latent diffusion-based editing enabled scalable marketing asset generation, reducing manual editing time by <strong>80%</strong>.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <div class="project-icon">🩺</div>
+            <div class="project-tags">
+              <span>CNN</span><span>Random Forest</span><span>FastAPI</span>
+            </div>
+          </div>
+          <h3>PCOS Detection — Statistical &amp; Imaging</h3>
+          <p>Dual-modal PCOS detection system combining statistical models on 541 patient records with a CNN trained on 2,000 ultrasound images, achieving <strong>86% accuracy</strong>. Deployed via FastAPI for healthcare decision-support integration.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <div class="project-icon">🤖</div>
+            <div class="project-tags">
+              <span>LangChain</span><span>FAISS</span><span>Embeddings</span>
+            </div>
+          </div>
+          <h3>LLM-Based Document Query Assistant</h3>
+          <p>RAG pipeline using LangChain and FAISS with hybrid search and tool-calling workflows. Implemented multilingual query handling and optimized inference latency for production-grade LLM deployment.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <div class="project-icon">🧠</div>
+            <div class="project-tags">
+              <span>CycleGAN</span><span>Generative AI</span><span>Healthcare</span>
+            </div>
+          </div>
+          <h3>MRI Image Synthesis with CycleGAN</h3>
+          <p>Cross-domain medical image synthesis translating between 1.5T and 3T MRI scans, achieving an <strong>FID score of 9.24</strong>. Addresses diagnostic disparities across healthcare facilities.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <div class="project-icon">🧬</div>
+            <div class="project-tags">
+              <span>Genomics</span><span>Statistical Modeling</span><span>ADNI-3</span>
+            </div>
+          </div>
+          <h3>Genetic Variant Analysis — Alzheimer's</h3>
+          <p>Genetic association analysis on ADNI-3 data from 654 participants, identifying Alzheimer's-linked SNPs using chi-square tests and logistic regression, with functional annotation and gene-set pathway analysis.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <h2>Publications</h2>
+      </div>
+      <div class="publications-list">
+        <article class="publication">
+          <span class="pub-tag">Conference</span>
+          <h3>An Ultra-Compact CNN for Real-Time Offline Indian Currency Classification on Mobile Devices</h3>
+          <p class="pub-authors"><strong>Mehra, C.</strong>, et al. (2025)</p>
+          <p class="pub-venue">Proceedings of the International Conference for Women in Computing (INCOWOCO 2025)</p>
+          <a href="https://doi.org/10.1109/InCoWoCo68239.2025.11407001" target="_blank" rel="noopener" class="pub-link">View paper →</a>
+        </article>
+        <article class="publication">
+          <span class="pub-tag">Journal</span>
+          <h3>The Marvels of DNA-Templated Gold Nanoclusters: Nature's Miracle Materials</h3>
+          <p class="pub-authors"><strong>Mehra, C.</strong>, Kumar, P., &amp; Kaushik, M. (2025)</p>
+          <p class="pub-venue">Next Materials, Vol. 8, pp. 2949–8228</p>
+          <a href="https://doi.org/10.1016/j.nxmate.2025.100665" target="_blank" rel="noopener" class="pub-link">View paper →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Writing -->
+  <section id="writing" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <h2>Writing</h2>
+      </div>
+      <p class="section-subtitle">Articles published in the Joomla Community Magazine.</p>
+      <div class="articles-grid">
+        <a href="https://magazine.joomla.org/all-issues/april-2026/meet-a-joomla-6-2-release-manager-charvi-mehra" target="_blank" rel="noopener" class="article-card">
+          <span class="article-date">April 2026</span>
+          <h3>Meet a Joomla 6.2 Release Manager — Charvi Mehra</h3>
+          <span class="article-link">Read on Joomla Magazine →</span>
+        </a>
+        <a href="https://magazine.joomla.org/all-issues/september-2025/level-up-your-joomla-extensions-with-the-ai-framework" target="_blank" rel="noopener" class="article-card">
+          <span class="article-date">September 2025</span>
+          <h3>Level Up Your Joomla Extensions with the AI Framework</h3>
+          <span class="article-link">Read on Joomla Magazine →</span>
+        </a>
+        <a href="https://magazine.joomla.org/all-issues/august-2025/my-gsoc-2025-journey-building-joomla-s-ai-framework" target="_blank" rel="noopener" class="article-card">
+          <span class="article-date">August 2025</span>
+          <h3>My GSoC 2025 Journey — Building Joomla's AI Framework</h3>
+          <span class="article-link">Read on Joomla Magazine →</span>
+        </a>
+        <a href="https://magazine.joomla.org/all-issues/march-2024/testing-joomla-made-easy" target="_blank" rel="noopener" class="article-card">
+          <span class="article-date">March 2024</span>
+          <h3>Testing Joomla Made Easy</h3>
+          <span class="article-link">Read on Joomla Magazine →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">07</span>
+        <h2>Get In Touch</h2>
+      </div>
+      <div class="contact-wrapper">
+        <p class="contact-intro">
+          I'm always open to discussing AI/ML opportunities, research collaborations, or open-source contributions.
+          Drop me a message — I'll get back to you.
+        </p>
+        <div class="contact-grid">
+          <a href="mailto:charvimehrawork01@gmail.com" class="contact-card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <h3>Email</h3>
+            <span>charvimehrawork01@gmail.com</span>
+          </a>
+          <a href="tel:+919464661270" class="contact-card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <h3>Phone</h3>
+            <span>+91 94646 61270</span>
+          </a>
+          <a href="https://linkedin.com/in/charvi-mehra" target="_blank" rel="noopener" class="contact-card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <h3>LinkedIn</h3>
+            <span>linkedin.com/in/charvi-mehra</span>
+          </a>
+          <a href="https://github.com/charvimehradu" target="_blank" rel="noopener" class="contact-card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            <h3>GitHub</h3>
+            <span>github.com/charvimehradu</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Charvi Mehra · Designed &amp; built with care.</p>
+      <p class="footer-meta">B.Tech Final Year · Cluster Innovation Centre, University of Delhi</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
