@@ -34,5 +34,5 @@ Open `index.html` in any browser.
 ## Contact
 
 - Email: charvimehrawork01@gmail.com
-- LinkedIn: [linkedin.com/in/charvi-mehra](https://linkedin.com/in/charvi-mehra)
+- LinkedIn: [linkedin.com/in/charvi-mehra-66b73029a](https://www.linkedin.com/in/charvi-mehra-66b73029a/)
 - GitHub: [github.com/charvimehradu](https://github.com/charvimehradu)
